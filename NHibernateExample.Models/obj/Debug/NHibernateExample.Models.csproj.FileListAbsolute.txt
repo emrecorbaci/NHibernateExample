@@ -1,0 +1,6 @@
+C:\Projects\NHibernate\NHibernateExample\NHibernateExample.Models\bin\Debug\NHibernateExample.Models.dll
+C:\Projects\NHibernate\NHibernateExample\NHibernateExample.Models\bin\Debug\NHibernateExample.Models.pdb
+C:\Projects\NHibernate\NHibernateExample\NHibernateExample.Models\obj\Debug\NHibernateExample.Models.csproj.AssemblyReference.cache
+C:\Projects\NHibernate\NHibernateExample\NHibernateExample.Models\obj\Debug\NHibernateExample.Models.csproj.CoreCompileInputs.cache
+C:\Projects\NHibernate\NHibernateExample\NHibernateExample.Models\obj\Debug\NHibernateExample.Models.dll
+C:\Projects\NHibernate\NHibernateExample\NHibernateExample.Models\obj\Debug\NHibernateExample.Models.pdb
