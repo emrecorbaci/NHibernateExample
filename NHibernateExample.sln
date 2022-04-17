@@ -3,11 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateExample.Models", "Models\NHibernateExample.Models.csproj", "{4075367D-6F0D-426E-AC30-A701EDA9F523}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateExample.Mapping", "NHibernateExample.Mapping\NHibernateExample.Mapping.csproj", "{71A97FB0-5304-473B-A925-9244F1F8FF16}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateExample.DB", "NHibernateExample.DAL\NHibernateExample.DB.csproj", "{D7108501-43AC-4BBF-9341-D6CBDA489B97}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateExample.Repository", "NHibernateExample.Repository\NHibernateExample.Repository.csproj", "{C7C34E8A-070F-4A5E-8D06-CA9DF262E320}"
 EndProject
@@ -17,24 +13,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateExample.Services"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateExample.UI.WebForm", "NHibernateExample.UI.WebForm\NHibernateExample.UI.WebForm.csproj", "{8B0D4DFD-0F56-4285-8422-D0368AADD33E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateExample.Models", "NHibernateExample.Models\NHibernateExample.Models.csproj", "{A24D08B4-2E5E-459A-AB65-6B94A7EE7ABA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateExampleDB", "NHibernateExampleDB\NHibernateExampleDB.csproj", "{7D0C9E1F-B86F-4E1B-AB02-9906A11CF565}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4075367D-6F0D-426E-AC30-A701EDA9F523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4075367D-6F0D-426E-AC30-A701EDA9F523}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4075367D-6F0D-426E-AC30-A701EDA9F523}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4075367D-6F0D-426E-AC30-A701EDA9F523}.Release|Any CPU.Build.0 = Release|Any CPU
 		{71A97FB0-5304-473B-A925-9244F1F8FF16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{71A97FB0-5304-473B-A925-9244F1F8FF16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71A97FB0-5304-473B-A925-9244F1F8FF16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71A97FB0-5304-473B-A925-9244F1F8FF16}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D7108501-43AC-4BBF-9341-D6CBDA489B97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D7108501-43AC-4BBF-9341-D6CBDA489B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D7108501-43AC-4BBF-9341-D6CBDA489B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D7108501-43AC-4BBF-9341-D6CBDA489B97}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C7C34E8A-070F-4A5E-8D06-CA9DF262E320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C7C34E8A-070F-4A5E-8D06-CA9DF262E320}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7C34E8A-070F-4A5E-8D06-CA9DF262E320}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -51,6 +43,14 @@ Global
 		{8B0D4DFD-0F56-4285-8422-D0368AADD33E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B0D4DFD-0F56-4285-8422-D0368AADD33E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B0D4DFD-0F56-4285-8422-D0368AADD33E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A24D08B4-2E5E-459A-AB65-6B94A7EE7ABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A24D08B4-2E5E-459A-AB65-6B94A7EE7ABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A24D08B4-2E5E-459A-AB65-6B94A7EE7ABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A24D08B4-2E5E-459A-AB65-6B94A7EE7ABA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D0C9E1F-B86F-4E1B-AB02-9906A11CF565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D0C9E1F-B86F-4E1B-AB02-9906A11CF565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D0C9E1F-B86F-4E1B-AB02-9906A11CF565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D0C9E1F-B86F-4E1B-AB02-9906A11CF565}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

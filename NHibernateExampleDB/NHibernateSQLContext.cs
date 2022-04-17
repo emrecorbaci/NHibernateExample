@@ -16,7 +16,7 @@ namespace NHibernateExample.DB
             {
                 return session;
             }
-            
+
             var connectionStringFromConfig = System.Configuration.ConfigurationManager.ConnectionStrings["MSSQL_NHibernateDB"].ConnectionString;
 
             //FluentConfiguration _fluentConfiguration = Fluently.Configure().Database(MsSqlConfiguration.MsSql2012.ConnectionString(/* that part can take from config */

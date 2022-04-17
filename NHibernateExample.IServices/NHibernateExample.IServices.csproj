@@ -45,8 +45,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Models\NHibernateExample.Models.csproj">
-      <Project>{4075367D-6F0D-426E-AC30-A701EDA9F523}</Project>
+    <ProjectReference Include="..\NHibernateExample.Models\NHibernateExample.Models.csproj">
+      <Project>{a24d08b4-2e5e-459a-ab65-6b94a7ee7aba}</Project>
       <Name>NHibernateExample.Models</Name>
     </ProjectReference>
   </ItemGroup>

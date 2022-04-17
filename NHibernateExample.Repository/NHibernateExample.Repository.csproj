@@ -70,9 +70,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NHibernateExample.DAL\NHibernateExample.DB.csproj">
-      <Project>{D7108501-43AC-4BBF-9341-D6CBDA489B97}</Project>
-      <Name>NHibernateExample.DB</Name>
+    <ProjectReference Include="..\NHibernateExampleDB\NHibernateExampleDB.csproj">
+      <Project>{7D0C9E1F-B86F-4E1B-AB02-9906A11CF565}</Project>
+      <Name>NHibernateExampleDB</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
